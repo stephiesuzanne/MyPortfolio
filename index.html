@@ -164,6 +164,20 @@
 
       </div>
       <!-- /.row -->
+      <!-- Portfolio Item 7 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
+          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+            <div class="portfolio-item-caption-content text-center text-white">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="https://images.unsplash.com/photo-1539278670307-a69d04dc8a75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="robot">
+        </div>
+      </div>
+
+    </div>
+    <!-- /.row -->
 
     </div>
   </section>
@@ -571,12 +585,12 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60 alt="LIRI Bot">
+                <img class="img-fluid rounded mb-5" src="https://images.unsplash.com/photo-1546776310-eef45dd6d63c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="LIRI Bot">
                 <br>
-                <a href="https://github.com/stephiesuzanne/MyPortfolio">LIRI Bot</a>
-                <br>
+                <!-- <a href="https://github.com/stephiesuzanne/MyPortfolio">LIRI Bot</a>
+                <br> -->
                 <!--Link to Github-->
-                <a href="https://github.com/stephiesuzanne/MyPortfolio">Link to GitHub</a>
+                <a href="https://github.com/stephiesuzanne/liri-node-app">Link to GitHub</a>
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5">This application allows the user to make requests for information about concerts, songs, and movies all within the command line. It utilizes the Bands in Town, Spotify, and OMDB API's along with multiple node modules to make such requests possible all from inside the command line.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
@@ -590,6 +604,54 @@
       </div>
     </div>
   </div>
+
+<!-- Portfolio Modal 7 -->
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="portfolioModal7Label" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">
+          <i class="fas fa-times"></i>
+        </span>
+      </button>
+      <div class="modal-body text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <!-- Portfolio Modal - Title -->
+              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Bamazon</h2>
+              <!-- Icon Divider -->
+              <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+              </div>
+              <!-- Portfolio Modal - Image -->
+              <img class="img-fluid rounded mb-5" src="https://images.unsplash.com/photo-1539278670307-a69d04dc8a75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60" alt="Online Shopping">
+              <br>
+              <!-- <a href="https://github.com/stephiesuzanne/MyPortfolio">LIRI Bot</a>
+              <br> -->
+              <!--Link to Github-->
+              <a href="https://github.com/stephiesuzanne/bamazon">Link to GitHub</a>
+              <!-- Portfolio Modal - Text -->
+              <p class="mb-5">This application was made using Node and mySQL workbanch.
+
+                The application is setup similar to Amazon.com. Running this application will first display all of the items available for sale including their ids, names, and prices of products. Then, it prompt users with two messages:
+                
+                The first asks them the ID of the product they would like to buy. The second message asks how many units of the product they would like to buy. Once the customer has placed the order, the application checks if our store has enough of the product to meet the customer's request. If not, the app informs the customer and prevents the order from going through. It then asks the user to choose a diferent item. If the store does have enough of the product, it fulfill the order. This updates the SQL database to reflect the remaining quantity & shows the customer the total cost of their purchase once the update goes through.</p>
+              <button class="btn btn-primary" href="#" data-dismiss="modal">
+                <i class="fas fa-times fa-fw"></i>
+                Close Window
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
